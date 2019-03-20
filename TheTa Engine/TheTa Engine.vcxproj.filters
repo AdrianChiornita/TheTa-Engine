@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="TheTa">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="TheTa\Core">
+      <UniqueIdentifier>{a036083c-ab8a-4af5-9efc-ef9b029a4b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheTa\Core\GPU">
+      <UniqueIdentifier>{0bbaa0dd-3a8d-4231-bddd-06eea66050a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheTa\Core\Window">
+      <UniqueIdentifier>{89daabce-c67e-4fc4-b185-7850d3d00c68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheTa\Core\Managers">
+      <UniqueIdentifier>{fbf80042-dd3a-4173-ba9a-f4ba189baf94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheTa\Core\Engine">
+      <UniqueIdentifier>{e3d94c5a-7d1b-4070-8353-1c1dd8252d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TheTa\Core\Application">
+      <UniqueIdentifier>{42d1dd71-76c3-4334-aece-077725f34fbf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects">
+      <UniqueIdentifier>{97c166aa-1b54-4713-8e83-7d4803fa4973}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Projects\Testing">
+      <UniqueIdentifier>{4cab8bc2-1aaa-412d-a67b-56e053b9b614}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\Shaders">
+      <UniqueIdentifier>{7773e4d4-1e34-423b-bbe1-ee217f123763}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Sources\Core\GPU\GPUBuffers.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Material.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Mesh.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Model.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Shader.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Texture.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\GPU\Vertex.hpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Managers\ExceptionMannager.hpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Managers\InputManager.hpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Managers\IOManager.hpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Managers\TimingManager.hpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Engine\Engine.hpp">
+      <Filter>TheTa\Core\Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Window\Window.hpp">
+      <Filter>TheTa\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Window\WindowSettings.hpp">
+      <Filter>TheTa\Core\Window</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\Application.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\Screen.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\ScreenList.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Graphics Projects\Testing TheTa\FirstApp.hpp">
+      <Filter>Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Graphics Projects\Testing TheTa\FirstScreen.hpp">
+      <Filter>Projects\Testing</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\Observer.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\Projection.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Application\Text.hpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="Sources\Core\Managers\ResourceManager.hpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Sources\Core\GPU\GPUBuffers.cpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\GPU\Mesh.cpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\GPU\Model.cpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\GPU\Shader.cpp">
+      <Filter>TheTa\Core\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Managers\ExceptionMannager.cpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Managers\InputManager.cpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Managers\IOManager.cpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Managers\TimingManager.cpp">
+      <Filter>TheTa\Core\Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Engine\Engine.cpp">
+      <Filter>TheTa\Core\Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Window\Window.cpp">
+      <Filter>TheTa\Core\Window</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Application\ScreenList.cpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Main.cpp">
+      <Filter>TheTa</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Application\Application.cpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Application\Observer.cpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="Sources\Core\Application\Text.cpp">
+      <Filter>TheTa\Core\Application</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+  </ItemGroup>
+</Project>
